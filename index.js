@@ -1,9 +1,7 @@
-
 function runQuiz() {
- console.log("here")   
-}
 
-var questionsArr = [
+ 
+let questionsArr = [
     {
       question1: 'JavaScript is the best language',
       answer: true
@@ -23,14 +21,14 @@ var questionsArr = [
       {
         question5: 'JavaScript is the best language',
         answer: true
-      },
-    
-]
-  
+      }  
+];
 
-for(var i=0; i < questionsArr.lenght; i++) {
-    runQuiz()
+
+for (let i =0; i < questionsArr.lenght; i++)   {
 }
 
-
-
+function showResults(){
+   // Implement showResults logic here
+}
+} 
