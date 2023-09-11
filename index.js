@@ -1,34 +1,41 @@
-function runQuiz() {
-
- 
 let questionsArr = [
-    {
-      question1: 'JavaScript is the best language',
+  {
+    question: 'JavaScript is the best language',
+    answer: true
+  },
+  {
+      question: 'JavaScript is the best language',
       answer: true
     },
     {
-        question2: 'JavaScript is the best language',
-        answer: true
-      },
-      {
-        question3: 'JavaScript is the best language',
-        answer: true
-      },
-      {
-        question4: 'JavaScript is the best language',
-        answer: true
-      },
-      {
-        question5: 'JavaScript is the best language',
-        answer: true
-      }  
+      question: 'fsgs is the best language',
+      answer: true
+    },
+    {
+      question: 'JavaScript is the best language',
+      answer: true
+    },
+    {
+      question: 'cnxc is the best language',
+      answer: true
+    }  
 ];
 
+let score = 0
 
-for (let i =0; i < questionsArr.lenght; i++)   {
-}
+
+function runQuiz() {
+  for (let i =0; i < questionsArr.length; i++) {
+    let answer = confirm(questionsArr[i].question);
+    if (condition) {
+  
+    }
+  }
+} 
 
 function showResults(){
-   // Implement showResults logic here
+ // Implement showResults logic here
 }
-} 
+
+//confirm
+
