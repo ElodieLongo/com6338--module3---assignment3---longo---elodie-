@@ -1,4 +1,4 @@
-let questionsArr = [
+var questionsArr = [
   {
     question: 'Rome is the capital of Italy',
     answer: true
@@ -21,21 +21,34 @@ let questionsArr = [
     }  
 ];
 
-let score = 0
-
-
 function runQuiz() {
-  for (var i =0; i < questionsArr.length; i++) {
-    let answer = confirm(questionsArr[i].question);
-    if (condition) {
-  
-    }
-  }
-} 
+  for (var i =0; i < questionsArr.length; i++); 
+ }
+
+runQuiz ()
 
 function showResults(){
  // Implement showResults logic here
 }
 
 //confirm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
