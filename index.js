@@ -1,22 +1,22 @@
 let questionsArr = [
   {
-    question: 'JavaScript is the best language',
+    question: 'Rome is the capital of Italy',
     answer: true
   },
   {
-      question: 'JavaScript is the best language',
-      answer: true
+      question: 'Paris is the capital of Spain',
+      answer: false
     },
     {
-      question: 'fsgs is the best language',
-      answer: true
+      question: 'Germany is in southern Europe',
+      answer: false
     },
     {
-      question: 'JavaScript is the best language',
-      answer: true
+      question: 'The Alps are at the border between France and Spain',
+      answer: false
     },
     {
-      question: 'cnxc is the best language',
+      question: 'Sweden is the European country with the most islands',
       answer: true
     }  
 ];
@@ -25,7 +25,7 @@ let score = 0
 
 
 function runQuiz() {
-  for (let i =0; i < questionsArr.length; i++) {
+  for (var i =0; i < questionsArr.length; i++) {
     let answer = confirm(questionsArr[i].question);
     if (condition) {
   
