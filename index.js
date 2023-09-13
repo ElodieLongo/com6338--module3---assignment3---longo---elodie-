@@ -1,3 +1,5 @@
+ 
+
 var questionsArr = [
   {
     question: 'Rome is the capital of Italy',
@@ -21,10 +23,13 @@ var questionsArr = [
     }  
 ];
 
-function runQuiz() {
-  for (var i =0; i < questionsArr.length; i++); 
- }
 
+ function runQuiz() {
+  for (let i =0; i < questionsArr.length; i++) {
+    let answer = confirm(questionsArr[i].question);
+    if (questionsArr.valueOf !=confirm.valueOf) { }
+    }
+  }
 runQuiz ()
 
 function showResults(){
