@@ -25,35 +25,23 @@ var questionsArr = [
 
 
  function runQuiz() {
-  for (let i =0; i < questionsArr.length; i++) {
-    let answer = confirm(questionsArr[i].question);
-    if (questionsArr.valueOf !=confirm.valueOf) { }
-    }
-  }
-runQuiz ()
+  let score = 0;
 
+  for (let i  = 0; i < questionsArr.length; i++) {
+
+    let userAnswer = confirm(questionsArr[i].question);
+    if (userAnswer === questionsArr[i].answer) {
+      score++;  
+     }
+    }
+
+let percentageScore = (score / questionsArr.length) * 100;
+window.alert(`Your score is ${percentageScore.toFixed()}%`);
+  }
+  
 function showResults(){
- // Implement showResults logic here
+let score = (percentageScore/questionsArr) * 100;
+
 }
 
-//confirm
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+runQuiz ()
