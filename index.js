@@ -35,8 +35,6 @@ function runQuiz() {
   window.alert(`Your score is ${percentageScore.toFixed()}%`);
 }
 
-function showResults() {
-  // This function appears to be incomplete or unnecessary for your current code.
-}
+
 
 runQuiz();
